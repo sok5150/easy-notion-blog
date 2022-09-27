@@ -7,7 +7,7 @@ const RenderPage = () => (
     <DocumentHead />
 
     <div>
-      <h2>Welcome!</h2>
+      <h2>Welcome^^</h2>
       <p>Your easy-notion-blog deployed successfully!</p>
       <p>Have fun!</p>
       <p>
