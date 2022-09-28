@@ -34,6 +34,11 @@
 .subContent {
   width: 35%;
 }
+
+.subContent h3{
+  padding-bottom: 5px;
+  border-bottom: dotted 1px var(--fg);
+}
 @media (max-width: 600px) {
   .subContent {
     width: 100%;

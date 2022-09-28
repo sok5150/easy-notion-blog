@@ -45,7 +45,7 @@ const RenderPosts = ({
 }) => {
   return (
     <div className={styles.container}>
-      <DocumentHead title="Blog" />
+      <DocumentHead title="Articles" />
 
       <div className={styles.mainContent}>
         <NoContents contents={posts} />
