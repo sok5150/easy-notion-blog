@@ -9,11 +9,11 @@ import {
   NextPageLink,
   NoContents,
   PostDate,
-  PostExcerpt,
+  // PostExcerpt,
   PostTags,
   PostTitle,
   PostsNotFound,
-  ReadMoreLink,
+  // ReadMoreLink,
 } from '../../../../../components/blog-parts'
 import styles from '../../../../../styles/blog.module.css'
 
