@@ -5,10 +5,10 @@ import {
   NextPageLink,
   NoContents,
   PostDate,
-  PostExcerpt,
+  // PostExcerpt,
   PostTags,
   PostTitle,
-  ReadMoreLink,
+  // ReadMoreLink,
 } from '../../components/blog-parts'
 import styles from '../../styles/blog.module.css'
 import {
