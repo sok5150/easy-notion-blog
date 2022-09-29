@@ -109,8 +109,8 @@ const RenderPostsByTagBeforeDate = ({
               <PostDate post={post} />
               <PostTags post={post} />
               <PostTitle post={post} />
-              <PostExcerpt post={post} />
-              <ReadMoreLink post={post} />
+              {/* <PostExcerpt post={post} />
+              <ReadMoreLink post={post} /> */}
             </div>
           )
         })}

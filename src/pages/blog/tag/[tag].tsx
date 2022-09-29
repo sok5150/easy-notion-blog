@@ -94,7 +94,7 @@ const RenderPostsByTags = ({
 
       <div className={styles.mainContent}>
         <header>
-          <h2>{tag}</h2>
+          <h2>{tag}の記事一覧</h2>
         </header>
 
         <NoContents contents={posts} />
@@ -105,8 +105,8 @@ const RenderPostsByTags = ({
               <PostDate post={post} />
               <PostTags post={post} />
               <PostTitle post={post} />
-              <PostExcerpt post={post} />
-              <ReadMoreLink post={post} />
+              {/* <PostExcerpt post={post} />
+              <ReadMoreLink post={post} /> */}
             </div>
           )
         })}
