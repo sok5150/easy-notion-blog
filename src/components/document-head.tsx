@@ -53,9 +53,6 @@ const DocumentHead = ({ title = '', description = '', urlOgImage = '' }) => {
       ) : null}
 
 
-
-        {/* fontawesome */}
-        <script src="https://kit.fontawesome.com/e31ff97ce6.js" crossOrigin="anonymous"></script>
     </Head>
   )
 }

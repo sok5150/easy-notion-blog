@@ -78,6 +78,7 @@ const RenderPosts = ({
             width={150}
             height={150}
             objectFit="contain"
+            alt='myimage'
           />
           </div>
           <div className="mycomment">

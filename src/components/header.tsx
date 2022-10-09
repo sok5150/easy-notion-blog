@@ -4,10 +4,11 @@ import { useRouter } from 'next/router'
 import { SITE_TITLE } from './document-head'
 import styles from '../styles/header.module.css'
 
-interface NavItem {
-  label: string
-  path: string
-}
+// interface NavItem {
+//   label: string
+//   path: string
+// }
+
 
 const Header = () => {
   const { asPath } = useRouter()
