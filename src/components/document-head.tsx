@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import { NEXT_PUBLIC_URL } from '../lib/notion/server-constants'
 
-export const SITE_TITLE = "sok's ..."
+export const SITE_TITLE = "sok's note"
 export const SITE_DESCRIPTION =
   'my miscellaneous notes'
 
@@ -51,6 +51,11 @@ const DocumentHead = ({ title = '', description = '', urlOgImage = '' }) => {
           href={new URL(asPath, NEXT_PUBLIC_URL).toString()}
         />
       ) : null}
+
+
+
+        {/* fontawesome */}
+        <script src="https://kit.fontawesome.com/e31ff97ce6.js" crossOrigin="anonymous"></script>
     </Head>
   )
 }

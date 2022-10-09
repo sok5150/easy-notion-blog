@@ -16,6 +16,7 @@
   margin: inherit;
   padding: 0.5rem 0;
   font-size: 1.1rem;
+  border-bottom: solid 1px var(--accents-3);
 }
 @media (max-width: 600px) {
   .header ul {

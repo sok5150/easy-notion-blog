@@ -12,20 +12,21 @@ interface NavItem {
 const Header = () => {
   const { asPath } = useRouter()
 
-  const navItems: NavItem[] = [
-    { label: 'Home', path: '/' },
-    { label: 'Blog', path: '/blog' },
-  ]
+  // const navItems: NavItem[] = [
+  //   { label: 'Home', path: '/' },
+  //   { label: 'Blog', path: '/blog' },
+  // ]
 
   return (
     <header className={styles.header}>
       <h1>
-        <Link href="/" passHref>
+        <Link href="/blog" passHref>
+        {/* <Link href="/" passHref> */}
           <a>{SITE_TITLE}</a>
         </Link>
       </h1>
 
-      <ul>
+      {/* <ul>
         {navItems.map(({ label, path }) => (
           <li key={label}>
             <Link href={path} passHref>
@@ -33,7 +34,9 @@ const Header = () => {
             </Link>
           </li>
         ))}
-      </ul>
+      </ul> */}
+
+
     </header>
   )
 }
