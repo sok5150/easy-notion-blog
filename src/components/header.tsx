@@ -11,7 +11,7 @@ import styles from '../styles/header.module.css'
 
 
 const Header = () => {
-  const { asPath } = useRouter()
+  // const { asPath } = useRouter()
 
   // const navItems: NavItem[] = [
   //   { label: 'Home', path: '/' },
