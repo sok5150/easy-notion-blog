@@ -21,8 +21,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <h1>
-        <Link href="/blog" passHref>
-        {/* <Link href="/" passHref> */}
+        <Link href="/" passHref>
           <a>{SITE_TITLE}</a>
         </Link>
       </h1>

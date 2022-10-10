@@ -28,6 +28,8 @@ import {
   getAllTags,
   getAllBlocksByBlockId,
 } from '../../lib/notion/client'
+import Myprofile from './../myprofile'
+
 
 export async function getStaticProps({ params: { slug } }) {
   const post = await getPostBySlug(slug)
@@ -153,6 +155,11 @@ const RenderPost = ({
       </div>
 
       <div className={styles.subContent}>
+
+
+      <Myprofile />
+
+
         <BlogPostLink
           heading="Posts in the same category"
           posts={sameTagPosts}

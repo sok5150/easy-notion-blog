@@ -18,6 +18,7 @@ import {
   getAllTags,
 } from '../lib/notion/client'
 import Image from 'next/image'
+import Myprofile from './myprofile'
 
 export async function getStaticProps() {
   const [posts, firstPost, rankedPosts, tags] = await Promise.all([
@@ -70,8 +71,8 @@ const RenderPosts = ({
 
       <div className={styles.subContent}>
 
-        {/* add */}
-        <div className="profile" style={{marginBottom:"15px"}}>
+
+        {/* <div className="profile" style={{marginBottom:"15px"}}>
           <div className="myimage" style={{display: "flex",justifyContent: "center"}}>
           <Image
             src="/profile.jpg"
@@ -89,9 +90,9 @@ const RenderPosts = ({
           <i className="fa-brands fa-square-twitter"></i>
           <div className="mysns">twitter</div>
           <a href="google">test</a>
-        </div>
+        </div> */}
 
-
+        <Myprofile />
 
 
 

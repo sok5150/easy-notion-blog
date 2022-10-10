@@ -24,6 +24,8 @@ import {
   getFirstPostByTag,
   getAllTags,
 } from '../../../lib/notion/client'
+import Myprofile from './../../myprofile'
+
 
 export async function getStaticProps({ params: { tag } }) {
   const posts = await getPostsByTag(tag, NUMBER_OF_POSTS_PER_PAGE)
@@ -117,6 +119,10 @@ const RenderPostsByTags = ({
       </div>
 
       <div className={styles.subContent}>
+
+      <Myprofile />
+
+
         <BlogPostLink heading="Recommended" posts={rankedPosts} />
         <BlogPostLink heading="Latest Posts" posts={recentPosts} />
         <BlogTagLink heading="Categories" tags={tags} />
