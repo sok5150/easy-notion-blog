@@ -125,7 +125,7 @@ const RenderPostsByTags = ({
 
         <BlogPostLink heading="Recommended" posts={rankedPosts} />
         <BlogPostLink heading="Latest Posts" posts={recentPosts} />
-        <BlogTagLink heading="Categories" tags={tags} />
+        <BlogTagLink heading="Tags" tags={tags} />
       </div>
     </div>
   )

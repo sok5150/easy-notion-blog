@@ -166,7 +166,7 @@ const RenderPost = ({
         />
         <BlogPostLink heading="Recommended" posts={rankedPosts} />
         <BlogPostLink heading="Latest posts" posts={recentPosts} />
-        <BlogTagLink heading="Categories" tags={tags} />
+        <BlogTagLink heading="Tags" tags={tags} />
       </div>
     </div>
   )

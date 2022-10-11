@@ -72,7 +72,7 @@ const RenderPosts = ({
         <Myprofile />
 
         <BlogPostLink heading="Recommended" posts={rankedPosts} />
-        <BlogTagLink heading="Categories" tags={tags} />
+        <BlogTagLink heading="Tags" tags={tags} />
       </div>
     </div>
   )
