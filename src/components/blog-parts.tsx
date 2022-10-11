@@ -12,10 +12,10 @@ import {
 } from '../lib/blog-helpers'
 import styles from '../styles/blog-parts.module.css'
 
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from 'react-icons/fa'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faTag} from "@fortawesome/free-solid-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import {faTag} from "@fortawesome/free-solid-svg-icons"
 
 export const PostDate = ({ post }) => (
   <div className={styles.postDate}>
