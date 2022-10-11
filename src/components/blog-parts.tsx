@@ -12,6 +12,8 @@ import {
 } from '../lib/blog-helpers'
 import styles from '../styles/blog-parts.module.css'
 
+import { FaBeer } from 'react-icons/fa';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faTag} from "@fortawesome/free-solid-svg-icons"
 
@@ -43,7 +45,8 @@ export const PostTags = ({ post }) => (
       post.Tags.length > 0 &&
       post.Tags.map((tag: string) => (
         <Link href="/blog/tag/[tag]" as={getTagLink(tag)} key={tag} passHref>
-          <a><FontAwesomeIcon icon={faTag} />{tag}</a>
+          {/* <a><FontAwesomeIcon icon={faTag} size='1x'/> {tag}</a> */}
+          <a><FaBeer /> {tag}</a>
         </Link>
       ))}
   </div>
