@@ -13,12 +13,31 @@
   color: var(--fg);
   border: solid 1px var(--accents-3);
   border-radius: 3px;
+  margin: 0 4px;
 }
 
 .postTitle {
   font-size: 1.6rem;
   color: var(--fg);
 }
+
+.myprofile{
+    margin-bottom: 15px;
+}
+
+.myimage{
+    display: flex;
+    justify-content: center;
+  }
+.mycomment{
+
+}
+.mysns{
+    text-align: center;
+}
+
+
+
 @media (max-width: 600px) {
   .postTitle {
     font-size: 1.2rem;

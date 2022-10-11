@@ -17,7 +17,6 @@ import {
   getRankedPosts,
   getAllTags,
 } from '../lib/notion/client'
-// import Image from 'next/image'
 import Myprofile from './myprofile'
 
 export async function getStaticProps() {
