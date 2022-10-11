@@ -54,7 +54,7 @@
 
 .subContent h3{
   padding-bottom: 5px;
-  border-bottom: solid 1px var(--accents-3);
+  border-bottom: solid 3px var(--accents-3);
 }
 @media (max-width: 600px) {
   .subContent {

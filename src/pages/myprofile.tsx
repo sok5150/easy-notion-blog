@@ -1,5 +1,8 @@
+import React from 'react'
 import ExtLink from '../components/ext-link'
 import Image from 'next/image'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faSquareTwitter} from "@fortawesome/free-brands-svg-icons"
 
 function Myprofile(){
 
@@ -20,11 +23,12 @@ function Myprofile(){
 
     </div>
     <i className="fa-brands fa-square-twitter"></i>
-    <div className="mysns">twitter</div>
-    <ExtLink href="https://github.com/otoyo/easy-notion-blog">
-          Twitter
-    </ExtLink>
-  </div>
+    <div className="mysns">
+      <ExtLink href="https://github.com/otoyo/easy-notion-blog">
+      <FontAwesomeIcon icon={faSquareTwitter} />
+      </ExtLink>
+    </div>
+      </div>
   )
 
 

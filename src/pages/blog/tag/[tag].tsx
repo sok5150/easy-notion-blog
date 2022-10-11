@@ -8,7 +8,7 @@ import {
   NextPageLink,
   NoContents,
   PostDate,
-  // PostExcerpt,
+  PostExcerpt,
   PostTags,
   PostTitle,
   PostsNotFound,
@@ -107,8 +107,8 @@ const RenderPostsByTags = ({
               <PostDate post={post} />
               <PostTags post={post} />
               <PostTitle post={post} />
-              {/* <PostExcerpt post={post} />
-              <ReadMoreLink post={post} /> */}
+              <PostExcerpt post={post} />
+              {/* <ReadMoreLink post={post} /> */}
             </div>
           )
         })}

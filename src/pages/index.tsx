@@ -5,7 +5,7 @@ import {
   NextPageLink,
   NoContents,
   PostDate,
-  // PostExcerpt,
+  PostExcerpt,
   PostTags,
   PostTitle,
   // ReadMoreLink,
@@ -58,8 +58,8 @@ const RenderPosts = ({
               <PostDate post={post} />
               <PostTags post={post} />
               <PostTitle post={post} />
-              {/* <PostExcerpt post={post} />
-              <ReadMoreLink post={post} /> */}
+              <PostExcerpt post={post} />
+              {/* <ReadMoreLink post={post} /> */}
             </div>
           )
         })}
@@ -70,31 +70,7 @@ const RenderPosts = ({
       </div>
 
       <div className={styles.subContent}>
-
-
-        {/* <div className="profile" style={{marginBottom:"15px"}}>
-          <div className="myimage" style={{display: "flex",justifyContent: "center"}}>
-          <Image
-            src="/profile.jpg"
-            width={150}
-            height={150}
-            objectFit="contain"
-            alt='myimage'
-          />
-          </div>
-          <div className="mycomment">
-            <p>コメントコメントコメントコメントコメントコメントコメント</p>
-            <p>コメントコメントコメントコメントコメントコメントコメントコメントコメント</p>
-
-          </div>
-          <i className="fa-brands fa-square-twitter"></i>
-          <div className="mysns">twitter</div>
-          <a href="google">test</a>
-        </div> */}
-
         <Myprofile />
-
-
 
         <BlogPostLink heading="Recommended" posts={rankedPosts} />
         <BlogTagLink heading="Categories" tags={tags} />

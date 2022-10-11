@@ -12,6 +12,9 @@ import {
 } from '../lib/blog-helpers'
 import styles from '../styles/blog-parts.module.css'
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {faTag} from "@fortawesome/free-solid-svg-icons"
+
 export const PostDate = ({ post }) => (
   <div className={styles.postDate}>
     {post.Date ? getDateStr(post.Date) : ''}
@@ -40,7 +43,7 @@ export const PostTags = ({ post }) => (
       post.Tags.length > 0 &&
       post.Tags.map((tag: string) => (
         <Link href="/blog/tag/[tag]" as={getTagLink(tag)} key={tag} passHref>
-          <a>{tag}</a>
+          <a><FontAwesomeIcon icon={faTag} />{tag}</a>
         </Link>
       ))}
   </div>
